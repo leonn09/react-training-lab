@@ -34,7 +34,12 @@ function App() {
 
       <div className="relative mx-auto flex max-w-6xl flex-col gap-10 px-6 py-12 lg:px-8">
         <header className="max-w-3xl">
-          <img className="inline m-2 rounded-xl h-12" src="public\leisure-links-logo.webp" /><span className="chip">React Training Lab</span>
+          <img
+            className="inline m-2 h-12 rounded-xl"
+            src={`${import.meta.env.BASE_URL}leisure-links-logo.webp`}
+            alt="Leisure Links logo"
+          />
+          <span className="chip">React Training Lab</span>
           <h1 className="font-display mt-4 text-4xl font-semibold text-slate-900 sm:text-5xl">
             Debug, design, and ship together.
           </h1>
