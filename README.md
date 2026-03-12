@@ -1,5 +1,9 @@
 # React Debugging Playground
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Open%20App-16a34a?style=for-the-badge)](https://leonn09.github.io/react-training-lab/)
+
+**Live Demo:** [Open the training lab](https://leonn09.github.io/react-training-lab/)
+
 A practice app for beginner React developers. The UI is styled with Tailwind CSS and includes intentional bugs, design challenges, and empty components for team collaboration.
 
 ## Quick start
@@ -70,5 +74,12 @@ Commit message examples:
 
 PR title examples:
 - [BUG-101] Burst counter fix
+
+## Deploy to GitHub Pages
+
+1. Ensure the repo has GitHub Pages enabled: Settings → Pages → Source → GitHub Actions.
+2. Push to `main`. The GitHub Action in `.github/workflows/deploy.yml` will build and publish.
+3. Your site will be available at:
+4. [https://leonn09.github.io/react-training-lab/](https://leonn09.github.io/react-training-lab/)
 
 Have fun breaking and fixing things.
