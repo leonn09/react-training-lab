@@ -74,7 +74,7 @@ export const BUG_TICKETS = [
     title: 'Click tracker never increments',
     area: 'State',
     difficulty: 'Easy',
-    status: 'Open',
+    status: 'Fixed',
   },
   {
     id: 'BUG-112',
