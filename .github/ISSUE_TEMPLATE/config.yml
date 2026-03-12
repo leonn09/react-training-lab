@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: "Start here: README"
+    url: "https://github.com/leonn09/react-training-lab#readme"
+    about: "Project overview, setup steps, and the bug list."
+  - name: "Contributing guide"
+    url: "https://github.com/leonn09/react-training-lab/blob/main/CONTRIBUTING.md"
+    about: "Branch naming, commit messages, and PR checklist."
