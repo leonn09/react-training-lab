@@ -16,7 +16,7 @@ export default function ClickTracker() {
         <span className="text-3xl font-semibold text-slate-900">{clicks}</span>
         <button
           className="rounded-full bg-slate-900 px-4 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-white"
-          onClick={() => setClicks(clicks)}
+          onClick={() => setClicks(clicks + 1)}
         >
           +1 Click
         </button>
