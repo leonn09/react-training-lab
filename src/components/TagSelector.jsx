@@ -6,15 +6,18 @@ export default function TagSelector() {
   const [selected, setSelected] = useState(['UI'])
 
   const toggleTag = (tag) => {
-    if (selected.includes(tag)) {
-      const index = selected.indexOf(tag)
-      selected.splice(index, 1)
-      setSelected(selected)
-      return
-    }
 
-    selected.push(tag)
-    setSelected(selected)
+    //The commented code below is what codex initially given
+
+    // if (selected.includes(tag)) {
+    //   const index = selected.indexOf(tag)
+    //   selected.splice(index, 1)
+    //   setSelected(tag)
+    //   return
+    // }
+
+    // selected.push(tag)
+    setSelected(tag)
   }
 
   return (
@@ -31,7 +34,8 @@ export default function TagSelector() {
           <button
             key={tag}
             className={`rounded-full border px-3 py-1 text-xs font-semibold uppercase tracking-[0.2em] ${
-              selected.includes(tag)
+              //selected.includes(tag)
+              tag==selected
                 ? 'border-slate-900 bg-slate-900 text-white'
                 : 'border-slate-900/30 text-slate-700'
             }`}
