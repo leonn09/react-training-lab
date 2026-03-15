@@ -14,10 +14,14 @@ import MoodChip from './components/MoodChip'
 import PriorityList from './components/PriorityList'
 import ProgressMeter from './components/ProgressMeter'
 import QuickNotes from './components/QuickNotes'
+import ScoreBoard from './components/ScoreBoard'
 import SizeBox from './components/SizeBox'
 import StickyCheckbox from './components/StickyCheckbox'
+import StatGrid from './components/StatGrid'
 import StyleTypoCard from './components/StyleTypoCard'
+import TagSelector from './components/TagSelector'
 import TipCycler from './components/TipCycler'
+import TaskFilter from './components/TaskFilter'
 import TogglePanel from './components/TogglePanel'
 import WelcomeBanner from './components/WelcomeBanner'
 import { BUG_TICKETS } from './data/bugs'
@@ -85,6 +89,10 @@ function App() {
             <CapsLockNotice />
             <SizeBox />
             <TogglePanel />
+            <ScoreBoard />
+            <TagSelector />
+            <TaskFilter />
+            <StatGrid />
             <QuickNotes />
             <Leaderboard />
           </div>
