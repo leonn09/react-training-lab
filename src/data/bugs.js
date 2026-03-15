@@ -144,7 +144,7 @@ export const BUG_TICKETS = [
     title: 'Tag selector does not toggle',
     area: 'State',
     difficulty: 'Medium',
-    status: 'Open',
+    status: 'Fixed',
   },
   {
     id: 'BUG-123',
