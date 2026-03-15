@@ -39,6 +39,10 @@ A practice app for beginner React developers. The UI is styled with Tailwind CSS
 - BUG-117 Uppercase styling is not applied. File: src/components/CapsLockNotice.jsx
 - BUG-118 Size box is not 120px square. File: src/components/SizeBox.jsx
 - BUG-119 Toggle panel never opens. File: src/components/TogglePanel.jsx
+- BUG-121 Score totals are wrong. File: src/components/ScoreBoard.jsx
+- BUG-122 Tag selector does not toggle. File: src/components/TagSelector.jsx
+- BUG-123 Task filter shows no items. File: src/components/TaskFilter.jsx
+- BUG-124 Stat grid is not in columns. File: src/components/StatGrid.jsx
 - BUG-120 Reduce render spikes on the dashboard. Status: Fixed (example only).
 
 ## Build tasks
